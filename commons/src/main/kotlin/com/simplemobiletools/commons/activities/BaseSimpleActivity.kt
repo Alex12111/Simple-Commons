@@ -1,5 +1,5 @@
 package com.simplemobiletools.commons.activities
-
+//test
 import android.animation.ArgbEvaluator
 import android.animation.ValueAnimator
 import android.annotation.SuppressLint
