@@ -81,7 +81,7 @@ class AboutActivity : ComponentActivity() {
                     }
                     val fullVersion = remember { String.format(getString(R.string.version_placeholder, version)) }
 
-                    OtherSection(
+                   /* OtherSection(
                         showMoreApps = showGoogleRelations,
                         onMoreAppsClick = ::launchMoreAppsFromUsIntent,
                         showWebsite = showWebsite,
@@ -91,7 +91,7 @@ class AboutActivity : ComponentActivity() {
                         onLicenseClick = ::onLicenseClick,
                         version = fullVersion,
                         onVersionClick = ::onVersionClick
-                    )
+                    )*/
                 }
             }
         }

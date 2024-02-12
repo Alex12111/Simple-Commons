@@ -70,6 +70,7 @@ internal fun HelpUsSection(
         SettingsHorizontalDivider()
     }
 }
+/*
 
 @Composable
 internal fun OtherSection(
@@ -120,6 +121,7 @@ internal fun OtherSection(
         SettingsHorizontalDivider()
     }
 }
+*/
 
 
 @Composable
@@ -241,7 +243,7 @@ private fun AboutScreenPreview() {
                 )
             }
         ) {
-            OtherSection(
+           /* OtherSection(
                 showMoreApps = true,
                 onMoreAppsClick = {},
                 onWebsiteClick = {},
@@ -251,7 +253,7 @@ private fun AboutScreenPreview() {
                 onLicenseClick = {},
                 version = "5.0.4",
                 onVersionClick = {}
-            )
+            )*/
         }
     }
 }
